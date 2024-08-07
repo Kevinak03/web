@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+
+        <title>SONG</title>
+        <link rel="icon"  href="image/emminem.png" type="image/png">
+    </head>
+    <body>
+        <h1>GODZILLA</h1>
+        <h4>BY EMINEM</h4>
+        <a href="https://www.youtube.com/watch?v=r_0JjYUe5jo">
+            ORIGINAL VIDEO
+        </a>
+        <br>
+        <br>
+        <a href="https://www.youtube.com/watch?v=r_0JjYUe5jo">
+        <img src="image/eminem.png" height="200" 
+            alt="album cover image">
+        </a>
+        <br>
+        <br>
+        <a href="https://www.youtube.com/watch?v=r_0JjYUe5jo">
+            <video controls loop muted autoplay src="VIDEO/Eminem - Godzilla ft. Juice WRLD (Official Music Video).mp4">
+            </video>
+
+        </a>
+
+    
+        
+
+        <hr color="brown" style="background-color: aqua;">
+        <br>
+
+        <audio controls autoplay muted loop>
+            <source src="AUDIO/Eminem - Godzilla ft. Juice WRLD (Official Music Video).mp3" type="audio/mp3">
+        </audio>
+        <h3>LYRICS</h3>
+        <pre  style="background-color: yellow; border: 10px solid; border-color: brown;" >
+            Ugh, <b>youre</b> you're a monster
+
+            I can <i>swallow </i> a bottle of alcohol and I'll feel like Godzilla
+
+            Better hit <u>the</u> deck like the card dealer
+
+            My whole squad's in here, walkin' around the party
+
+            A cross between a zombie apocalypse and B-Bobby "The Brain" Heenan
+
+            Which is probably the same reason I wrestle with mania
+        </pre>
+           <p>PREVIEW</p> 
+           <ol>
+            <li>GOOD</li>
+            <li>MEDIUM</li>
+            <li>BAD</li>
+           </ol>
+
+        <button onclick="convert()" style=" border-radius: 10px ; color: rgb(0, 0, 0); background-color: rgb(30, 17, 212); font-size: large;">
+            CONVERT NOTHING TO SOMETHING
+        </button>
+
+        <h3 id="poda">NOTHING</h3>
+        <script>
+            function convert(){
+                var element = document.getElementById("poda");
+        if (element.innerHTML === "NOTHING") {
+            element.innerHTML = "SOMETHING";
+        } else {
+            element.innerHTML = "NOTHING";
+        }
+            }
+        </script>
+        
+
+
+    </body>
+
+
+
+
+</html>
